@@ -1,4 +1,4 @@
-package jsonstreams
+package pkg
 
 import "testing"
 

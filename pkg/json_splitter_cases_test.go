@@ -1,4 +1,4 @@
-package jsonstreams
+package pkg
 
 const (
 	j1 = "{\"message\": \"hi\"}"
