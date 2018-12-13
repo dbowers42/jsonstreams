@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="3a95f3bf-33a6-48de-87a7-57664031d548" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json_splitter.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/json_splitter.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json_splitter_cases_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/json_splitter_cases_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json_splitter_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/json_splitter_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/json_splitter.go" beforeDir="false" afterPath="$PROJECT_DIR$/json_splitter.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/json_splitter_cases_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/json_splitter_cases_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/json_splitter_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/json_splitter_test.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,25 +16,25 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pkg/json_splitter.go">
+        <entry file="file://$PROJECT_DIR$/json_splitter.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+              <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pkg/json_splitter_test.go">
+        <entry file="file://$PROJECT_DIR$/json_splitter_test.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+              <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pkg/json_splitter_cases_test.go">
+        <entry file="file://$PROJECT_DIR$/json_splitter_cases_test.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
               <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
@@ -59,9 +59,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/json_splitter_cases_test.go" />
-        <option value="$PROJECT_DIR$/json_splitter_test.go" />
         <option value="$PROJECT_DIR$/json_splitter.go" />
         <option value="$PROJECT_DIR$/pkg/json_splitter.go" />
+        <option value="$PROJECT_DIR$/json_splitter_test.go" />
       </list>
     </option>
   </component>
@@ -84,11 +84,6 @@
               <item name="jsonstreams" type="b2602c69:ProjectViewProjectNode" />
               <item name="jsonstreams" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="jsonstreams" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jsonstreams" type="462c0819:PsiDirectoryNode" />
-              <item name="pkg" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -106,6 +101,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/pkg" />
     </key>
   </component>
@@ -171,15 +167,14 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.49928468" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.5064378" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32939634" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32939634" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -187,7 +182,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32939634" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32939634" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -199,24 +194,24 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pkg/json_splitter.go">
+    <entry file="file://$PROJECT_DIR$/json_splitter.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pkg/json_splitter_cases_test.go">
+    <entry file="file://$PROJECT_DIR$/json_splitter_cases_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pkg/json_splitter_test.go">
+    <entry file="file://$PROJECT_DIR$/json_splitter_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
         </state>
       </provider>
     </entry>

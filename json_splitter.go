@@ -1,4 +1,4 @@
-package pkg
+package jsonstreams
 
 func SplitJsonStream(stream string) []string {
 	var payloads []string
